@@ -2,9 +2,7 @@
 #10-16-17
 #countdownn.py
 
-def countdownn(num):
-    i=num
-
+def countdownn(i):
     while i > 0:
         print(i)
         i -= 1
