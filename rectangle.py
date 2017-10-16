@@ -5,3 +5,5 @@
 def rectangle(num1, num2):
     print('The area is',num1*num2)
     print('The perimeter is',2*(num1+num2))
+    
+rectangle(3,4)
