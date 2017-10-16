@@ -16,4 +16,5 @@ def bigger(num1, num2): # prints which number is bigger
         
 bigger(13, 27)
 bigger(-10, -15)
+bigger('Smeds', 'Low')
 
