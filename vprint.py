@@ -6,4 +6,4 @@ def vprint(word):
     for ch in word:
         print(ch)
 
-vprint(Maxwell)
+vprint('Maxwell')
