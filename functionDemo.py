@@ -4,3 +4,6 @@
 
 def hw():
     print('Hello, World!')
+
+hw() # actually runs the function
+hw()
