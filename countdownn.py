@@ -11,4 +11,4 @@ def countdownn(num):
     
 print('Boom!')
 
-countdown(5):
+def countdown(5):
