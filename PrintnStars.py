@@ -4,6 +4,6 @@
 
 def PrintnStars(star):
     for star in range (1,star):
-    print('*'*star)
+        print('*'*star)
     
 PrintnStars(6)
