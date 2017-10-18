@@ -11,8 +11,9 @@ green = Color(0x00FF00,1)
 red = Color(0xff0000,1)
 
 blackOutline = LineStyle(5,blue)
+Rectangle = RectangleAsset(200,100,blackOutline,blue)
 
-color = randint(1,4)
+
 def mouseClick(event):
     color = randint(1,4)
     if color == 1: 
