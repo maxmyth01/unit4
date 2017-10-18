@@ -12,7 +12,7 @@ red = Color(0xff0000,1)
 
 blackOutline = LineStyle(5,blue)
 
-    color = randint(1,4)
+color = randint(1,4)
 def mouseClick(event):
     color = randint(1,4)
     if color == 1: 
