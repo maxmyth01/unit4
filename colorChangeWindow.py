@@ -14,13 +14,13 @@ blackOutline = LineStyle(5,black)
 
 def mouseClick(event):
     color = randint(1,4)
-    if color = 1: 
+    if color == 1: 
         Rectangle = RectangleAsset(200,100,blackOutline,blue)
-    if color = 2: 
+    if color == 2: 
         Rectangle = RectangleAsset(200,100,blackOutline,yellow)
-    if color = 3: 
+    if color == 3: 
         Rectangle = RectangleAsset(200,100,blackOutline,green)
-    if color = 4: 
+    if color == 4: 
         Rectangle = RectangleAsset(200,100,blackOutline,red)
     
         
