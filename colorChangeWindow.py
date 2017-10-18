@@ -9,9 +9,9 @@ blue = Color(0x0000FF,1)
 yellow =Color(0xFFFF00,1)
 green = Color(0x00FF00,1)
 red = Color(0xff0000,1)
-
 blackOutline = LineStyle(5,blue)
-Rectangle = RectangleAsset(200,100,blackOutline,blue)
+
+
 
 
 def mouseClick(event):
