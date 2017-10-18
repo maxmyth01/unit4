@@ -10,7 +10,7 @@ yellow =Color(0xFFFF00,1)
 green = Color(0x00FF00,1)
 red = Color(0xff0000,1)
 
-blackOutline = LineStyle(5,black)
+blackOutline = LineStyle(5,blue)
 
 def mouseClick(event):
     color = randint(1,4)
