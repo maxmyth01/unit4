@@ -41,7 +41,7 @@ def moveBanana():
     
 def updateScore():
     data['score'] += 10
-    data['scoreBox'].destroy()
+    data['scoretext'].destroy()
     scoreBox = TextAsset('Score = '+str(data['score']))
     data['scoretext'] = Sprite(scoreBox,(0,ROWS*CELL_SIZE))
     
