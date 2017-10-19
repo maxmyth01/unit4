@@ -30,8 +30,8 @@ if __name__ == '__main__':
     bananaBox = RectangleAsset(CELL_SIZE,CELL_SIZE,LineStyle(1,yellow),yellow)
     
     Sprite(jungleBox)
-    monkey = Sprite(monkeyBox)
     Sprite(bananaBox,(COLS*CELL_SIZE/2,ROWS*CELL_SIZE/2))
+    monkey = Sprite(monkeyBox)
     
     App.listenKeyEvent('keydown','right arrow', moveRight)
     App.listenKeyEvent('keydown','left arrow', moveLeft)
