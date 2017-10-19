@@ -11,4 +11,8 @@ def square(row,column):
         
         
 square(4,3)
+
+square(5,7)
+
+square(10,2)
     
