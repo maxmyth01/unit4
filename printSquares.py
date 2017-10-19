@@ -3,7 +3,10 @@
 #printSquares -- row then colums 
 
 def square(row,column):
-        print('+--'*row)
+    for i in range(0,column):    
+        print('+--'*row,'+')
+        print('|  '*row+1)
+        
         
         
 square(4,3)
