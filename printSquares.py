@@ -3,7 +3,7 @@
 #printSquares -- row then colums 
 
 def square(row,column):
-    for i in range(1,row):
+    for i in range(0,row):
         print('+--')
         
         
