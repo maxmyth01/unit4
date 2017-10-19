@@ -6,6 +6,7 @@ def square(row,column):
     for i in range(0,column):    
         print('+--'*row,'+')
         print('|  '*row,'|')
+print('+--'*row,'+')
         
         
         
