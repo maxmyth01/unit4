@@ -56,7 +56,7 @@ if __name__ == '__main__':
     jungleBox = RectangleAsset(COLS*CELL_SIZE,ROWS*CELL_SIZE,LineStyle(1,green),green)
     monkeyBox = RectangleAsset(CELL_SIZE,CELL_SIZE,LineStyle(1,brown),brown)
     bananaBox = RectangleAsset(CELL_SIZE,CELL_SIZE,LineStyle(1,yellow),yellow)
-    scoreBOx = TextAsset('score = 0')
+    scoreBox = TextAsset('score = 0')
     
     Sprite(jungleBox)
     banana = Sprite(bananaBox,(COLS*CELL_SIZE/2,ROWS*CELL_SIZE/2))
