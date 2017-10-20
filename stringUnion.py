@@ -11,6 +11,8 @@ def stringUnion(word1, word2):
     for ch in word2: 
         print(ch)
     
+    print(letters)
+    
     
 stringUnion('mississippi','pennsylvania')
 
