@@ -7,7 +7,7 @@ def stringUnion(word1, word2):
     for ch in word1:
         if ch not in letters:
             print(ch)
-            letters = letters + 'ch'
+            letters = letters + ch
     for ch in word2: 
         print(ch)
     
