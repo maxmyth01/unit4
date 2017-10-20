@@ -9,6 +9,9 @@ def stringUnion(word1, word2):
             print(ch)
             letters = letters + ch
     for ch in word2: 
+        if ch not in letters:
+            print(ch)
+            letters = letters + ch
         print(ch)
     
     print(letters)
