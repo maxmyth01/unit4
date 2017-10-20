@@ -9,5 +9,5 @@ def stringUnion(word1, word2):
         print(ch)
     
     
-stringUnion(mississippi,pennsylvania)
+stringUnion('mississippi','pennsylvania')
 
