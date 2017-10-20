@@ -3,8 +3,11 @@
 #stringUnion.py takes two words and then prints out all the apering letter each letter only once
 
 def stringUnion(word1, word2):
+    letters = ''
     for ch in word1:
-        print(ch) 
+        if ch not in letters
+            print(ch)
+            letters = letters + 'ch'
     for ch in word2: 
         print(ch)
     
