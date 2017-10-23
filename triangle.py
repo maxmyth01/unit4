@@ -3,7 +3,7 @@
 #trangle.py -- uses 3 pt to determine area
 
 def distance(x1,y1,x2,y2):
-    print(((x2-x1)**2+(y2-y1)**2)**0.5)
+    return(((x2-x1)**2+(y2-y1)**2)**0.5)
     
 
 def area(x1,y1,x2,y2,x3,y3):
