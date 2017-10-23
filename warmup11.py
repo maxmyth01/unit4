@@ -3,6 +3,7 @@
 #warmup11.py -- primes numbers
 
 def isPrime(num):
+    num=num
     x=num - 1
     while x > 1:
         if num // x == 0:
