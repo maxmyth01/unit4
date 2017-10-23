@@ -7,9 +7,9 @@ def distance(x1,y1,x2,y2):
     
 
 def area(x1,y1,x2,y2,x3,y3):
-    a = distace(x1,y1,x2,y2)
-    b = distace(x2,y2,x3,y3)
-    c = distace(x3,y3,x1,y1)
+    a = distance(x1,y1,x2,y2)
+    b = distance(x2,y2,x3,y3)
+    c = distance(x3,y3,x1,y1)
     s = 0.5*(a+b+c)
     return((s*(s-a)*(s-b)*(s-c))**0.5)
 
