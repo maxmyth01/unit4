@@ -13,3 +13,6 @@ def isPrime(num):
     
     
 print(isPrime(6))
+print(isPrime(7))
+
+
