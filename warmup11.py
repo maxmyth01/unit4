@@ -12,4 +12,4 @@ def isPrime(num):
     return(True)
     
     
-isPrime(6)
+print(isPrime(6))
