@@ -6,10 +6,10 @@ def isPrime(num):
     x=num - 1
     while x > 1:
         if num // x == 0:
-            return(False)
+            return('False')
         else:
             x -= 1
-    return(True)
+    return('True')
     
     
 print(isPrime(6))
