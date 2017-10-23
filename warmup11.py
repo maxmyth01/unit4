@@ -9,7 +9,7 @@ def isPrime(num):
             return(False)
         else:
             x -= 1
-        return(True)
+return(True)
     
     
 print(isPrime(6))
