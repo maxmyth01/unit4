@@ -5,7 +5,7 @@
 from random import randint
 
 def encouraging():
-    from random import rand int
+    from random import randint
     x = randint(1,4)
     if x= 1:
         print(Great Job!)
