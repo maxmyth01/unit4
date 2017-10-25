@@ -27,7 +27,7 @@ while x<5:
     int(rand1)
     int(rand2)
     
-    if answer == rand1*rand2
+    if answer == rand1*rand2:
         x += 5
     else:
         print('Incorrect, Try Again.')
