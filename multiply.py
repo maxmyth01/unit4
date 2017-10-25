@@ -7,13 +7,13 @@ from random import randint
 def encouraging():
     from random import randint
     x = randint(1,4)
-    if x= 1:
+    if x== 1:
         print(Great Job!)
-    elif x=2:
+    elif x==2:
         print(Keep it up!)
-    elif x=3:
+    elif x==3:
         print(Nice multiplying!)
-    elif x=4:
+    elif x==4:
         print(Nice work!)
     
 
