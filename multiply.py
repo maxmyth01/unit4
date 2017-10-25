@@ -23,7 +23,7 @@ while x<5:
     rand1 = randint(1,12)
     rand2 = randint(1,12)
     
-    answer = input('What is',rand1,'*',rand2,'?')
+    answer = input('What is'+rand1+'*'+rand2+'?')
     if answer == rand1*rand2:
         x += 5
     else:
