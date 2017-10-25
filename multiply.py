@@ -29,4 +29,4 @@ while x<5:
     if answer == rand1*rand2:
         x += 5
     else:
-        print('Incorrect, Try Again.')
+        print('Incorrect, Try Again.',rand1*rand2)
