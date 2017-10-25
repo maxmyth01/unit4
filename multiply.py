@@ -2,6 +2,7 @@
 #10-23-17
 #multiply.py -- rand in 1-12 encourgaing message at 5 right
 
+from random import randint
 
 def encouraging():
     from random import rand int
@@ -16,5 +17,12 @@ def encouraging():
         print(Nice work!)
     
 
-
-while 
+x=0
+while x<5:
+    
+    rand1 = randint(1,12)
+    rand2 = randint(1,12)
+    
+    answer = intput('What is',rand1'*'rand2'?')
+        if answer = rand1*rand2:
+            x += 5
