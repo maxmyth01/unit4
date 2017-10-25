@@ -24,7 +24,7 @@ while x<5:
     rand2 = randint(1,12)
     
     answer = intput('What is',rand1,'*',rand2,'?')
-        if answer == rand1*rand2:
-            x += 5
-        else:
-            print('Incorrect, Try Again.')
+    if answer == rand1*rand2:
+        x += 5
+    else:
+        print('Incorrect, Try Again.')
