@@ -18,7 +18,7 @@ def encouraging():
     
 
 x=0
-while x<5:
+while True:
     
     rand1 = randint(1,12)
     rand2 = randint(1,12)
@@ -27,7 +27,8 @@ while x<5:
 
     
     if answer == rand1*rand2:
-        x += 5
-        encouraging()
+        x += 1
+        if x==5:
+            encouraging()
     else:
         print('Incorrect, Try Again.',rand1*rand2)
