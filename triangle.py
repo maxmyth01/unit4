@@ -2,6 +2,13 @@
 #10-23-17
 #trangle.py -- uses 3 pt to determine area
 
+x1 = int(input('Enter x of verticy'))
+y1 = int(input('Enter y of verticy'))
+x2 = int(input('Enter x of verticy'))
+y2 = int(input('Enter y of verticy'))
+x3 = int(input('Enter x of verticy'))
+y3 = int(input('Enter y of verticy'))
+
 def distance(x1,y1,x2,y2):
     return(((x2-x1)**2+(y2-y1)**2)**0.5)
     
@@ -14,4 +21,4 @@ def area(x1,y1,x2,y2,x3,y3):
     return((s*(s-a)*(s-b)*(s-c))**0.5)
 
 
-print(area(3,4,-5,2,-7,1))
+print(area(x1,y1,x2,y2,x3,y3))
