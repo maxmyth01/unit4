@@ -27,8 +27,9 @@ while True:
 
     
     if answer == rand1*rand2:
-        x += 1
+        x += 5
         if x==5:
             encouraging()
+            x=0
     else:
         print('Incorrect, Try Again.',rand1*rand2)
