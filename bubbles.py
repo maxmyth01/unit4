@@ -28,7 +28,7 @@ def mouseClick(event):
         if randcolor == 5:
             Circle = CircleAsset(radius,blackOutline,black)
 
-    Sprite(Circle,(randint(100,500),randint(100,300)))
+    Sprite(Circle,(randint(100,900),randint(100,450)))
 
 
 App().listenMouseEvent('click', mouseClick)
