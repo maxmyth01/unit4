@@ -28,5 +28,6 @@ while x<5:
     
     if answer == rand1*rand2:
         x += 5
+        encourage()
     else:
         print('Incorrect, Try Again.',rand1*rand2)
