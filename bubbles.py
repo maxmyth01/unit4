@@ -14,7 +14,8 @@ blackOutline = LineStyle(5,black) # (pixels,colors)
 
 
 def mouseClick(event):
-    for x in range(randint(5,20)):
+    times = randint(5,20)
+    for x in range(times):
         radius = randint(10,100)
         randcolor = randint(1,5)
         if randcolor == 1:
