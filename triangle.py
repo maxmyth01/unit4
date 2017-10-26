@@ -21,4 +21,4 @@ def area(x1,y1,x2,y2,x3,y3):
     return((s*(s-a)*(s-b)*(s-c))**0.5)
 
 
-print(area(x1,y1,x2,y2,x3,y3))
+print(round(area(x1,y1,x2,y2,x3,y3),2))
