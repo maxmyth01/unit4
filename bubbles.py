@@ -14,8 +14,8 @@ blackOutline = LineStyle(5,black) # (pixels,colors)
 
 
 def mouseClick(event):
-    times = randint(5,20)
-    for x in range(times):
+    bubbles = randint(5,20)
+    for i in range(bubbles):
         radius = randint(10,100)
         randcolor = randint(1,5)
         if randcolor == 1:
@@ -28,8 +28,9 @@ def mouseClick(event):
             Circle = CircleAsset(radius,blackOutline,yellow)
         if randcolor == 5:
             Circle = CircleAsset(radius,blackOutline,black)
-
-    Sprite(Circle,(randint(100,900),randint(100,450)))
+        x = randint(100,900)
+        y = randint(100,450)
+    Sprite(Circle,(x,y))
 
 
 App().listenMouseEvent('click', mouseClick)
