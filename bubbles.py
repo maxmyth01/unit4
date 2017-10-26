@@ -29,7 +29,7 @@ def mouseClick(event):
         if randcolor == 5:
             Circle = CircleAsset(radius,blackOutline,black)
         x = randint(100,900)
-        y = randint(100,450)
+        y = randint(100,400)
     Sprite(Circle,(x,y))
 
 
