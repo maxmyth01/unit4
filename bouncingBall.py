@@ -8,6 +8,7 @@ from ggame import *
 
 red = Color(0xFF0000,1)
 black = Color(0xFFFFFF,1)
+move = 0 
 blackOutline = LineStyle(5,black) # (pixels,colors)
 Circle = CircleAsset(50,blackOutline,red) \
 
