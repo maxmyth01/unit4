@@ -11,9 +11,12 @@ black = Color(0xFFFFFF,1)
 blackOutline = LineStyle(5,black) # (pixels,colors)
 Circle = CircleAsset(50,blackOutline,red) \
 
+def step():
+    move += 1
+
 def movecircle():
-    x = step
-    y = step
+    x = move
+    y = move
     Sprite(Circle,(x,y))
     
 while True:
