@@ -4,7 +4,7 @@
 
 def GCF(num1,num2):
     x = min(num1,num2)
-    for i in range x:
+    for i in range(x):
         if min(num1,num2) % x == 0:
             return x
         else:
