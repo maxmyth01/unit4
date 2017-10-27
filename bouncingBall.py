@@ -7,6 +7,7 @@ from random import randint
 from ggame import *
 
 red = Color(0xFF0000,1)
+black = Color(0xFFFFFF,1)
 blackOutline = LineStyle(5,black) # (pixels,colors)
 Circle = CircleAsset(radius,blackOutline,red) \
 
