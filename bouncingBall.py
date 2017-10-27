@@ -8,8 +8,14 @@ from ggame import *
 
 red = Color(0xFF0000,1)
 blackOutline = LineStyle(5,black) # (pixels,colors)
-Circle = CircleAsset(radius,blackOutline,red) 
+Circle = CircleAsset(radius,blackOutline,red) \
 
-Sprite(Circle,(x,y))
+def movecircle():
+    x = step
+    y = step
+    Sprite(Circle,(x,y))
+    
+while True:
+    movecircle()
 
-App().run()
+App().run(step)
