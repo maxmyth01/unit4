@@ -27,5 +27,5 @@ def same(x,y):
 
 csia()
 print(average(1,2,3))
-lastLetter('Maxwell')
+lastLetter('Smedinghoff')
 print(same(2*3,7-1))
