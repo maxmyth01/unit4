@@ -22,7 +22,7 @@ def lastLetter(word):
 def same(x,y):
     if x == y:
         return True
-    else
+    else:
         return False
 
 csia()
