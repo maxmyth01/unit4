@@ -18,7 +18,16 @@ def lastLetter(word):
         y +=1
         if y==x:
             print(ch)
+            
+def same(x,y):
+    if x == y:
+        return True
+    else
+        return False
 
 csia()
 print(average(1,2,3))
 lastLetter('Maxwell')
+print(same(2*3,7-1))
+print(same(hi,hi))
+print(same(0.56,2*0.23))
