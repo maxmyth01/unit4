@@ -21,4 +21,4 @@ def lastLetter(word):
 
 csia()
 print(average(1,2,3))
-lastLetter('Smeddinghoff')
+lastLetter('Maxwell')
