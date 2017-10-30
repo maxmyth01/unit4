@@ -4,3 +4,6 @@
 
 def csia:
     print("Computer Science is Awesome"*5)
+    
+
+csia()
